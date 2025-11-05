@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Papers Knowledge Graph</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #111;
+      color: #eee;
+    }
+
+    #layout {
+      display: grid;
+      grid-template-columns: 320px 1fr 320px;
+      grid-template-rows: 100vh;
+      gap: 8px;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+
+    #bars, #graph-container, #side-panel {
+      background: #181818;
+      border-radius: 12px;
+      padding: 8px 10px;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 0 0 10px #0007;
+    }
+
+    h2 {
+      margin: 4px 0 2px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    #bars {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .chart {
+      flex: 1;
+      min-height: 0;
+      border-radius: 8px;
+      background: #101010;
+      padding: 6px;
+    }
+
+    .axis text {
+      fill: #ccc;
+      font-size: 10px;
+    }
+
+    .axis path,
+    .axis line {
+      stroke: #555;
+    }
+
+    .bar {
+      cursor: pointer;
+    }
+
+    .bar:hover {
+      opacity: 0.8;
+    }
+
+    .bar.selected {
+      stroke: #fff;
+      stroke-width: 1.5;
+    }
+
+    #graph-svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    #side-panel h3 {
+      margin-top: 0;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    #doc-list {
+      font-size: 12px;
+      max-height: 40vh;
+      overflow-y: auto;
+      margin-bottom: 8px;
+    }
+
+    #doc-list li {
+      margin-bottom: 2px;
+    }
+
+    #question {
+      width: 100%;
+      height: 80px;
+      margin-bottom: 4px;
+      resize: vertical;
+      background: #111;
+      color: #eee;
+      border-radius: 6px;
+      border: 1px solid #444;
+      padding: 4px 6px;
+      box-sizing: border-box;
+      font-family: inherit;
+      font-size: 13px;
+    }
+
+    #ask-btn {
+      width: 100%;
+      padding: 6px;
+      border-radius: 6px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    #ask-btn:hover {
+      background: #1d4ed8;
+    }
+
+    #llm-output {
+      margin-top: 6px;
+      font-size: 12px;
+      max-height: 35vh;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      border-top: 1px solid #333;
+      padding-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div id="layout">
+    <!-- LEFT: bar charts -->
+    <div id="bars">
+      <div class="chart">
+        <h2>Top People</h2>
+        <svg id="people-chart"></svg>
+      </div>
+      <div class="chart">
+        <h2>Top Places</h2>
+        <svg id="places-chart"></svg>
+      </div>
+    </div>
+
+    <!-- CENTER: knowledge graph -->
+    <div id="graph-container">
+      <h2>Knowledge Graph</h2>
+      <svg id="graph-svg"></svg>
+    </div>
+
+    <!-- RIGHT: docs + LLM (stubbed) -->
+    <div id="side-panel">
+      <h3>Selected Documents</h3>
+      <ul id="doc-list"></ul>
+
+      <h3>Ask the LLM</h3>
+      <textarea id="question" placeholder="Ask a question about the selected docs..."></textarea>
+      <button id="ask-btn">Ask (stub)</button>
+
+      <div id="llm-output"></div>
+    </div>
+  </div>
+
+  <script>
+    const BARS_URL = "bars1.json";
+    const GRAPH_URL = "graph1.json";
+
+    const graphState = {
+      nodes: [],
+      links: [],
+      nodeElements: null,
+      linkElements: null,
+      adjacency: new Map(),
+      width: 600,
+      height: 600,
+    };
+
+    // which bars are selected?
+    const selectionState = {
+      people: new Set(),
+      places: new Set(),
+    };
+
+    // to re-style bars on selection changes
+    const chartState = {
+      personBars: null,
+      placeBars: null,
+    };
+
+    // ----------------------------------------------------------
+    // Helpers
+    // ----------------------------------------------------------
+    function buildAdjacency(links) {
+      const adj = new Map();
+      links.forEach(l => {
+        const s = typeof l.source === "object" ? l.source.id : l.source;
+        const t = typeof l.target === "object" ? l.target.id : l.target;
+        if (!adj.has(s)) adj.set(s, new Set());
+        if (!adj.has(t)) adj.set(t, new Set());
+        adj.get(s).add(t);
+        adj.get(t).add(s);
+      });
+      return adj;
+    }
+
+    // ----------------------------------------------------------
+    // Graph rendering (nodes = people/places, links = co-occur)
+    // ----------------------------------------------------------
+    function renderGraph(graphData) {
+      const svg = d3.select("#graph-svg");
+      const width = svg.node().clientWidth || 600;
+      const height = svg.node().clientHeight || 600;
+
+      graphState.width = width;
+      graphState.height = height;
+
+      svg.attr("viewBox", [0, 0, width, height]);
+      svg.selectAll("*").remove();
+
+      const container = svg.append("g").attr("class", "graph-container");
+
+      // background rect so you can pan by dragging empty space
+      container.append("rect")
+        .attr("x", 0)
+        .attr("y", 0)
+        .attr("width", width)
+        .attr("height", height)
+        .attr("fill", "transparent");
+
+      const nodes = graphData.nodes.map(d => ({ ...d }));
+      const links = graphData.links.map(d => ({ ...d }));
+
+      graphState.nodes = nodes;
+      graphState.links = links;
+      graphState.adjacency = buildAdjacency(links);
+
+      const link = container.append("g")
+        .attr("stroke", "#555")
+        .attr("stroke-opacity", 0.4)
+        .selectAll("line")
+        .data(links)
+        .join("line")
+        .attr("stroke-width", 1.0);
+
+      const color = d => {
+        if (d.type === "person") return "#22c55e";
+        if (d.type === "place")  return "#38bdf8";
+        return "#a855f7";
+      };
+
+      const node = container.append("g")
+        .attr("stroke", "#111")
+        .attr("stroke-width", 0.6)
+        .selectAll("circle")
+        .data(nodes)
+        .join("circle")
+        .attr("r", 5)
+        .attr("fill", color)
+        .attr("class", "graph-node")
+        .call(
+          d3.drag()
+            .on("start", dragstarted)
+            .on("drag", dragged)
+            .on("end", dragended)
+        );
+
+      node.append("title").text(d => d.label || d.id);
+
+      const simulation = d3.forceSimulation(nodes)
+        .force("link", d3.forceLink(links).id(d => d.id).distance(60))
+        .force("charge", d3.forceManyBody().strength(-120))
+        .force("center", d3.forceCenter(width / 2, height / 2));
+
+      simulation.on("tick", () => {
+        link
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+
+        node
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
+      });
+
+      function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      }
+
+      function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+      }
+
+      function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      }
+
+      // zoom & pan
+      const zoom = d3.zoom()
+        .scaleExtent([0.2, 5])
+        .on("zoom", (event) => {
+          container.attr("transform", event.transform);
+        });
+
+      svg.call(zoom).call(zoom.transform, d3.zoomIdentity);
+
+      graphState.nodeElements = node;
+      graphState.linkElements = link;
+    }
+
+    // ----------------------------------------------------------
+    // Selection + highlighting
+    // ----------------------------------------------------------
+    function toggleSelection(type, label) {
+      const set = type === "person" ? selectionState.people : selectionState.places;
+      if (set.has(label)) {
+        set.delete(label);
+      } else {
+        set.add(label);
+      }
+      updateBarStyles();
+      updateHighlights();
+    }
+
+    function updateBarStyles() {
+      if (chartState.personBars) {
+        chartState.personBars
+          .classed("selected", d => selectionState.people.has(d.name));
+      }
+      if (chartState.placeBars) {
+        chartState.placeBars
+          .classed("selected", d => selectionState.places.has(d.name));
+      }
+    }
+
+    function updateHighlights() {
+      if (!graphState.nodeElements) return;
+
+      const selectedIds = new Set();
+      selectionState.people.forEach(name => selectedIds.add(`person:${name}`));
+      selectionState.places.forEach(name => selectedIds.add(`place:${name}`));
+
+      const adjacency = graphState.adjacency;
+
+      // no selection → reset styles + clear docs
+      if (selectedIds.size === 0) {
+        graphState.nodeElements
+          .attr("opacity", 0.9)
+          .attr("stroke", "#111")
+          .attr("stroke-width", 0.6)
+          .attr("r", 5);
+
+        graphState.linkElements
+          .attr("stroke-opacity", 0.4)
+          .attr("stroke-width", 1.0);
+
+        updateDocList(new Set());
+        return;
+      }
+
+      // neighbors: union of neighbors of all selected nodes
+      const neighborIds = new Set(selectedIds);
+      selectedIds.forEach(id => {
+        const neigh = adjacency.get(id);
+        if (neigh) {
+          neigh.forEach(nid => neighborIds.add(nid));
+        }
+      });
+
+      // style nodes
+      graphState.nodeElements
+        .attr("opacity", d => (neighborIds.has(d.id) ? 1 : 0.1))
+        .attr("stroke", d => (selectedIds.has(d.id) ? "#fff" : "#111"))
+        .attr("stroke-width", d => (selectedIds.has(d.id) ? 2 : 0.6))
+        .attr("r", d => (selectedIds.has(d.id) ? 7 : 5));
+
+      const selectedDocIds = new Set();
+
+      // style links + collect docs from active edges
+      graphState.linkElements
+        .attr("stroke-opacity", d => {
+          const s = d.source.id ?? d.source;
+          const t = d.target.id ?? d.target;
+          const active = selectedIds.has(s) || selectedIds.has(t);
+          if (active && Array.isArray(d.docs)) {
+            d.docs.forEach(docId => selectedDocIds.add(docId));
+          }
+          return active ? 0.9 : 0.05;
+        })
+        .attr("stroke-width", d => {
+          const s = d.source.id ?? d.source;
+          const t = d.target.id ?? d.target;
+          const active = selectedIds.has(s) || selectedIds.has(t);
+          return active ? 2 : 0.5;
+        });
+
+      updateDocList(selectedDocIds);
+    }
+
+    // ----------------------------------------------------------
+    // Side panel: document list (IDs for now)
+    // ----------------------------------------------------------
+    function updateDocList(docIdSet) {
+      const ul = d3.select("#doc-list");
+      ul.selectAll("*").remove();
+
+      const ids = Array.from(docIdSet);
+      if (!ids.length) {
+        ul.append("li").text("No documents selected.");
+        return;
+      }
+
+      ul.selectAll("li")
+        .data(ids)
+        .enter()
+        .append("li")
+        .text(d => d);
+    }
+
+    // ----------------------------------------------------------
+    // Bar charts
+    // ----------------------------------------------------------
+    function renderBarChart(svgId, data, type) {
+      const svg = d3.select(svgId);
+      const margin = { top: 10, right: 10, bottom: 20, left: 80 };
+      const width = (svg.node().clientWidth || 260) - margin.left - margin.right;
+      const height = (svg.node().clientHeight || 220) - margin.top - margin.bottom;
+
+      svg.attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom]);
+      svg.selectAll("*").remove();
+
+      const g = svg.append("g")
+        .attr("transform", `translate(${margin.left},${margin.top})`);
+
+      const y = d3.scaleBand()
+        .domain(data.map(d => d.name))
+        .range([0, height])
+        .padding(0.15);
+
+      const x = d3.scaleLinear()
+        .domain([0, d3.max(data, d => d.count) || 1])
+        .nice()
+        .range([0, width]);
+
+      const bars = g.selectAll(".bar")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr("class", "bar")
+        .attr("x", 0)
+        .attr("y", d => y(d.name))
+        .attr("height", y.bandwidth())
+        .attr("width", d => x(d.count))
+        .attr("fill", type === "person" ? "#22c55e" : "#38bdf8")
+        .on("click", (event, d) => {
+          toggleSelection(type, d.name);
+        });
+
+      // store bar selections for styling later
+      if (type === "person") {
+        chartState.personBars = bars;
+      } else {
+        chartState.placeBars = bars;
+      }
+
+      g.selectAll(".bar-label")
+        .data(data)
+        .enter()
+        .append("text")
+        .attr("x", d => x(d.count) + 3)
+        .attr("y", d => y(d.name) + y.bandwidth() / 2 + 3)
+        .attr("fill", "#ddd")
+        .attr("font-size", 9)
+        .text(d => d.count);
+
+      const yAxis = d3.axisLeft(y).tickSize(0);
+      const xAxis = d3.axisBottom(x).ticks(4).tickFormat(d3.format("d"));
+
+      g.append("g")
+        .attr("class", "axis y-axis")
+        .call(yAxis)
+        .selectAll("text")
+        .style("font-size", "9px");
+
+      g.append("g")
+        .attr("class", "axis x-axis")
+        .attr("transform", `translate(0,${height})`)
+        .call(xAxis);
+    }
+
+    // ----------------------------------------------------------
+    // Init
+    // ----------------------------------------------------------
+    Promise.all([
+      d3.json(BARS_URL),
+      d3.json(GRAPH_URL),
+    ]).then(([barsData, graphData]) => {
+      renderBarChart("#people-chart", barsData.people, "person");
+      renderBarChart("#places-chart", barsData.places, "place");
+      renderGraph(graphData);
+
+      d3.select("#ask-btn").on("click", () => {
+        const q = d3.select("#question").property("value");
+        d3.select("#llm-output").text(
+          "LLM call would go here.\n\nQuestion:\n" + q +
+          "\n\n(Backend will use the selected document IDs from the right panel.)"
+        );
+      });
+    }).catch(err => {
+      console.error("Error loading data:", err);
+    });
+  </script>
+</body>
+</html>
