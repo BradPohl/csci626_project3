@@ -1,0 +1,246 @@
+{
+  "people": [
+    {
+      "name": "Adnan Hijazi",
+      "count": 7
+    },
+    {
+      "name": "Abdul al Nami",
+      "count": 7
+    },
+    {
+      "name": "Omar Hanif",
+      "count": 7
+    },
+    {
+      "name": "Jose Escalante",
+      "count": 5
+    },
+    {
+      "name": "Wali Shakur",
+      "count": 4
+    },
+    {
+      "name": "Ramundo Ortiz",
+      "count": 4
+    },
+    {
+      "name": "Satam Derwish",
+      "count": 4
+    },
+    {
+      "name": "Pyotr Safrygin",
+      "count": 4
+    },
+    {
+      "name": "Boris Bugarov",
+      "count": 4
+    },
+    {
+      "name": "Muslih Odeh",
+      "count": 4
+    },
+    {
+      "name": "Abu Hafs",
+      "count": 3
+    },
+    {
+      "name": "Mehdi Rafiki",
+      "count": 3
+    },
+    {
+      "name": "Rifai Qasim",
+      "count": 3
+    },
+    {
+      "name": "Jamal al Quso",
+      "count": 3
+    },
+    {
+      "name": "Khalid Shamrani",
+      "count": 3
+    },
+    {
+      "name": "Mounir Mzoudi",
+      "count": 3
+    },
+    {
+      "name": "Muhammed Dandani",
+      "count": 3
+    },
+    {
+      "name": "Raeed Beandali",
+      "count": 3
+    },
+    {
+      "name": "Ronald",
+      "count": 3
+    },
+    {
+      "name": "Saeed Hasham",
+      "count": 3
+    },
+    {
+      "name": "Yasir Salman",
+      "count": 3
+    },
+    {
+      "name": "Carlos Morales",
+      "count": 3
+    },
+    {
+      "name": "Abdillah Zinedine",
+      "count": 2
+    },
+    {
+      "name": "Omar Mahmoud Othman",
+      "count": 2
+    },
+    {
+      "name": "Abu Somad",
+      "count": 2
+    },
+    {
+      "name": "Yazid Bafaba",
+      "count": 2
+    },
+    {
+      "name": "Riduan Sungkar",
+      "count": 2
+    },
+    {
+      "name": "Omar Evertts",
+      "count": 2
+    },
+    {
+      "name": "Omar Blakely",
+      "count": 2
+    },
+    {
+      "name": "Muhammed Mustafa",
+      "count": 2
+    }
+  ],
+  "places": [
+    {
+      "name": "/Chitral/ /Pakistan",
+      "count": 10
+    },
+    {
+      "name": "/ / /Afghanistan",
+      "count": 9
+    },
+    {
+      "name": "/Detroit/Michigan/USA",
+      "count": 9
+    },
+    {
+      "name": "/Havana/ /Cuba",
+      "count": 9
+    },
+    {
+      "name": "/Moscow/ /Russia",
+      "count": 8
+    },
+    {
+      "name": "/Casablanca/ /Morocco",
+      "count": 7
+    },
+    {
+      "name": "/Chicago/Illinois/USA",
+      "count": 6
+    },
+    {
+      "name": "/Peshawar/ /Pakistan",
+      "count": 6
+    },
+    {
+      "name": "/ / /USA",
+      "count": 5
+    },
+    {
+      "name": "11 Apple St./Nassau/ /Bahamas",
+      "count": 4
+    },
+    {
+      "name": "/Windsor/Ontario/Canada",
+      "count": 4
+    },
+    {
+      "name": "/Miami/Florida/USA",
+      "count": 4
+    },
+    {
+      "name": "811 Tecumseh Rd./Windsor/Ontario/Canada",
+      "count": 4
+    },
+    {
+      "name": "/Nassau/ /Bahamas",
+      "count": 4
+    },
+    {
+      "name": "Los Andes Hotel/Bogota/ /Columbia",
+      "count": 4
+    },
+    {
+      "name": "555 La Mirada St./Tampico/ /Mexico",
+      "count": 4
+    },
+    {
+      "name": "/Paris/ /France",
+      "count": 3
+    },
+    {
+      "name": "455 11th St./Miami Beach/Florida/USA",
+      "count": 3
+    },
+    {
+      "name": "Heathrow Airport/London/ /UK",
+      "count": 3
+    },
+    {
+      "name": "/Newark/New Jersey/USA",
+      "count": 3
+    },
+    {
+      "name": "2211 Cermak Rd./Chicago/Illinois/USA",
+      "count": 3
+    },
+    {
+      "name": "/London/ /UK",
+      "count": 3
+    },
+    {
+      "name": "/ / /Columbia",
+      "count": 3
+    },
+    {
+      "name": "/ / /Pakistan",
+      "count": 3
+    },
+    {
+      "name": "/Buenos Aires/ /Argentina",
+      "count": 3
+    },
+    {
+      "name": "/Guane/ /Cuba",
+      "count": 3
+    },
+    {
+      "name": "/Chetumal/ /Mexico",
+      "count": 3
+    },
+    {
+      "name": "/ / /Saudi Arabia",
+      "count": 3
+    },
+    {
+      "name": "/Riyadh/ /Saudi Arabia",
+      "count": 3
+    },
+    {
+      "name": "/Freeport/ /Bahamas",
+      "count": 3
+    }
+  ]
+}
