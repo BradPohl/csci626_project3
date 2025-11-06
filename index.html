@@ -275,7 +275,10 @@
             .on("start", dragstarted)
             .on("drag", dragged)
             .on("end", dragended)
-        );
+        )
+        .on("click", (event, d) => {
+          toggleSelection(d.type, d.label);
+        });
 
       node.append("title").text(d => d.label || d.id);
 
@@ -336,6 +339,7 @@
       } else {
         set.add(label);
       }
+      console.log(label);
       updateBarStyles();
       updateHighlights();
     }
