@@ -188,6 +188,8 @@
       height: 600,
     };
 
+    const selectedDocIds = new Set();
+
     // which bars are selected?
     const selectionState = {
       people: new Set(),
@@ -275,7 +277,10 @@
             .on("start", dragstarted)
             .on("drag", dragged)
             .on("end", dragended)
-        );
+        )
+        .on("click", (event, d) => {
+          toggleSelection(d.type, d.label);
+        });
 
       node.append("title").text(d => d.label || d.id);
 
@@ -392,8 +397,6 @@
         .attr("stroke-width", d => (selectedIds.has(d.id) ? 2 : 0.6))
         .attr("r", d => (selectedIds.has(d.id) ? 7 : 5));
 
-      const selectedDocIds = new Set();
-
       // style links + collect docs from active edges
       graphState.linkElements
         .attr("stroke-opacity", d => {
@@ -402,6 +405,9 @@
           const active = selectedIds.has(s) || selectedIds.has(t);
           if (active && Array.isArray(d.docs)) {
             d.docs.forEach(docId => selectedDocIds.add(docId));
+          }
+          else if (!active && Array.isArray(d.docs)) {
+            d.docs.forEach(docId => selectedDocIds.delete(docId));
           }
           return active ? 0.9 : 0.05;
         })
@@ -432,7 +438,11 @@
         .data(ids)
         .enter()
         .append("li")
-        .text(d => d);
+        .text(d => d)
+        .on("click", (event, d) => {
+            selectedDocIds.delete(d);
+            updateDocList(selectedDocIds);
+        });
     }
 
     // ----------------------------------------------------------
