@@ -50,7 +50,7 @@ function renderBarChart(svgId, data, type) {
     .attr("x", d => x(d.count) + 3)
     .attr("y", d => y(d.name) + y.bandwidth() / 2 + 3)
     .attr("fill", "#ddd")
-    .attr("font-size", 9)
+    .attr("font-size", 7)
     .text(d => d.count);
 
   const yAxis = d3.axisLeft(y).tickSize(0);
@@ -60,7 +60,7 @@ function renderBarChart(svgId, data, type) {
     .attr("class", "axis y-axis")
     .call(yAxis)
     .selectAll("text")
-    .style("font-size", "9px");
+    .style("font-size", "8px");
 
   g.append("g")
     .attr("class", "axis x-axis")

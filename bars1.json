@@ -79,167 +79,87 @@
     {
       "name": "Saeed Hasham",
       "count": 3
-    },
-    {
-      "name": "Yasir Salman",
-      "count": 3
-    },
-    {
-      "name": "Carlos Morales",
-      "count": 3
-    },
-    {
-      "name": "Abdillah Zinedine",
-      "count": 2
-    },
-    {
-      "name": "Omar Mahmoud Othman",
-      "count": 2
-    },
-    {
-      "name": "Abu Somad",
-      "count": 2
-    },
-    {
-      "name": "Yazid Bafaba",
-      "count": 2
-    },
-    {
-      "name": "Riduan Sungkar",
-      "count": 2
-    },
-    {
-      "name": "Omar Evertts",
-      "count": 2
-    },
-    {
-      "name": "Omar Blakely",
-      "count": 2
-    },
-    {
-      "name": "Muhammed Mustafa",
-      "count": 2
     }
   ],
   "places": [
     {
-      "name": "/Chitral/ /Pakistan",
+      "name": "Chitral, Pakistan",
       "count": 10
     },
     {
-      "name": "/ / /Afghanistan",
+      "name": "Afghanistan",
       "count": 9
     },
     {
-      "name": "/Detroit/Michigan/USA",
+      "name": "Detroit, Michigan, USA",
       "count": 9
     },
     {
-      "name": "/Havana/ /Cuba",
+      "name": "Havana, Cuba",
       "count": 9
     },
     {
-      "name": "/Moscow/ /Russia",
+      "name": "Moscow, Russia",
       "count": 8
     },
     {
-      "name": "/Casablanca/ /Morocco",
+      "name": "Peshawar, Pakistan",
       "count": 7
     },
     {
-      "name": "/Chicago/Illinois/USA",
+      "name": "Casablanca, Morocco",
+      "count": 7
+    },
+    {
+      "name": "Chicago, Illinois, USA",
       "count": 6
     },
     {
-      "name": "/Peshawar/ /Pakistan",
-      "count": 6
-    },
-    {
-      "name": "/ / /USA",
+      "name": "USA",
       "count": 5
     },
     {
-      "name": "11 Apple St./Nassau/ /Bahamas",
+      "name": "11 Apple St., Nassau, Bahamas",
       "count": 4
     },
     {
-      "name": "/Windsor/Ontario/Canada",
+      "name": "Windsor, Ontario, Canada",
       "count": 4
     },
     {
-      "name": "/Miami/Florida/USA",
+      "name": "Miami, Florida, USA",
       "count": 4
     },
     {
-      "name": "811 Tecumseh Rd./Windsor/Ontario/Canada",
+      "name": "811 Tecumseh Rd., Windsor, Ontario, Canada",
       "count": 4
     },
     {
-      "name": "/Nassau/ /Bahamas",
+      "name": "Nassau, Bahamas",
       "count": 4
     },
     {
-      "name": "Los Andes Hotel/Bogota/ /Columbia",
+      "name": "Los Andes Hotel, Bogota, Columbia",
       "count": 4
     },
     {
-      "name": "555 La Mirada St./Tampico/ /Mexico",
+      "name": "555 La Mirada St., Tampico, Mexico",
       "count": 4
     },
     {
-      "name": "/Paris/ /France",
+      "name": "Paris, France",
       "count": 3
     },
     {
-      "name": "455 11th St./Miami Beach/Florida/USA",
+      "name": "455 11th St., Miami Beach, Florida, USA",
       "count": 3
     },
     {
-      "name": "Heathrow Airport/London/ /UK",
+      "name": "Heathrow Airport, London, UK",
       "count": 3
     },
     {
-      "name": "/Newark/New Jersey/USA",
-      "count": 3
-    },
-    {
-      "name": "2211 Cermak Rd./Chicago/Illinois/USA",
-      "count": 3
-    },
-    {
-      "name": "/London/ /UK",
-      "count": 3
-    },
-    {
-      "name": "/ / /Columbia",
-      "count": 3
-    },
-    {
-      "name": "/ / /Pakistan",
-      "count": 3
-    },
-    {
-      "name": "/Buenos Aires/ /Argentina",
-      "count": 3
-    },
-    {
-      "name": "/Guane/ /Cuba",
-      "count": 3
-    },
-    {
-      "name": "/Chetumal/ /Mexico",
-      "count": 3
-    },
-    {
-      "name": "/ / /Saudi Arabia",
-      "count": 3
-    },
-    {
-      "name": "/Riyadh/ /Saudi Arabia",
-      "count": 3
-    },
-    {
-      "name": "/Freeport/ /Bahamas",
+      "name": "Newark, New Jersey, USA",
       "count": 3
     }
   ]

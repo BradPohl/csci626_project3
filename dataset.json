@@ -17,9 +17,9 @@
       "4/6/2003"
     ],
     "PLACES": [
-      "/Paris/ /France",
-      "175 Rue Durocher/Montreal/Quebec/Canada",
-      "Walden Ave./Buffalo/New York/USA"
+      "Paris, France",
+      "175 Rue Durocher, Montreal, Quebec, Canada",
+      "Walden Ave., Buffalo, New York, USA"
     ],
     "ORGANIZATIONS": [
       "Surete' de l'Etat",
@@ -40,13 +40,13 @@
       "5/1/2003"
     ],
     "PLACES": [
-      "M4 Motorway/London/ /UK",
-      "721 St. Clare St./Montreal/Quebec/Canada",
-      "455 11th St./Miami Beach/Florida/USA",
-      "1712 Ferry Ave./Camden/New Jersey/USA",
-      "11 Apple St./Nassau/ /Bahamas",
-      "44 Northumberland Circle, East Bedfont/London/ /UK",
-      "Heathrow Airport/London/ /UK"
+      "M4 Motorway, London, UK",
+      "721 St. Clare St., Montreal, Quebec, Canada",
+      "455 11th St., Miami Beach, Florida, USA",
+      "1712 Ferry Ave., Camden, New Jersey, USA",
+      "11 Apple St., Nassau, Bahamas",
+      "44 Northumberland Circle, East Bedfont, London, UK",
+      "Heathrow Airport, London, UK"
     ],
     "ORGANIZATIONS": [
       "Baker St. Mosque"
@@ -66,9 +66,9 @@
     ],
     "DATES": [],
     "PLACES": [
-      "235 Buckthorn St./Inglewood/California/USA",
-      "773 Flaxton St./Culver City/California/USA",
-      "/Newark/New Jersey/USA"
+      "235 Buckthorn St., Inglewood, California, USA",
+      "773 Flaxton St., Culver City, California, USA",
+      "Newark, New Jersey, USA"
     ],
     "ORGANIZATIONS": [
       "BMI",
@@ -91,9 +91,9 @@
       "4/27/2003"
     ],
     "PLACES": [
-      "2211 Cermak Rd./Chicago/Illinois/USA",
-      "Hobby Airport/Houston/Texas/USA",
-      "O'Hare Airport/Chicago/Illinois/USA"
+      "2211 Cermak Rd., Chicago, Illinois, USA",
+      "Hobby Airport, Houston, Texas, USA",
+      "O'Hare Airport, Chicago, Illinois, USA"
     ],
     "ORGANIZATIONS": [
       "Drexel Car Rental Agency",
@@ -116,8 +116,8 @@
       "10/23/2003"
     ],
     "PLACES": [
-      "3131 Western Ave./Charlotte/North Carolina/USA",
-      "/Dubai/ /UAE"
+      "3131 Western Ave., Charlotte, North Carolina, USA",
+      "Dubai, UAE"
     ],
     "ORGANIZATIONS": [
       "BailOut",
@@ -144,11 +144,11 @@
       "9/28/2003"
     ],
     "PLACES": [
-      "/London/ /UK",
-      "/ /Texas/USA",
-      "O'Hare Airport/Chicago/Illinois/USA",
-      "2211 Cermak Rd./Chicago/Illinois/USA",
-      "Sears Tower/Chicago/Illinois/USA"
+      "London, UK",
+      "Texas, USA",
+      "O'Hare Airport, Chicago, Illinois, USA",
+      "2211 Cermak Rd., Chicago, Illinois, USA",
+      "Sears Tower, Chicago, Illinois, USA"
     ],
     "ORGANIZATIONS": [
       "Islamic Jihad",
@@ -171,11 +171,11 @@
       "11/1/2003"
     ],
     "PLACES": [
-      "Toronto Airport/Toronto/ /Canada",
-      "CDG/Paris/ /France",
-      "174 Rue Cardinet/Paris/ /France",
-      "/ / /Afghanistan",
-      "1712 Ferry St./Buffalo/New York/USA"
+      "Toronto Airport, Toronto, Canada",
+      "CDG, Paris, France",
+      "174 Rue Cardinet, Paris, France",
+      "Afghanistan",
+      "1712 Ferry St., Buffalo, New York, USA"
     ],
     "ORGANIZATIONS": [
       "RCMP",
@@ -202,12 +202,12 @@
       "/ /2002"
     ],
     "PLACES": [
-      "Dulles International Airport/Dulles/Virginia/USA",
-      "/Herndon/Virginia/USA",
-      "Heathrow Airport/London/ /UK",
-      "/Windsor/Ontario/Canada",
-      "/Detroit/Michigan/USA",
-      "/Roanoke/Virginia/USA"
+      "Dulles International Airport, Dulles, Virginia, USA",
+      "Herndon, Virginia, USA",
+      "Heathrow Airport, London, UK",
+      "Windsor, Ontario, Canada",
+      "Detroit, Michigan, USA",
+      "Roanoke, Virginia, USA"
     ],
     "ORGANIZATIONS": [
       "Hamas"
@@ -228,12 +228,12 @@
       "6/16/2003"
     ],
     "PLACES": [
-      "Reliant Stadium/Houston/Texas/USA",
-      "The Galleria Shopping Mall/Houston/Texas/USA",
-      "/Denton/Texas/USA",
-      "/Mineral Wells/Texas/USA",
-      "3236 Pine St./Bellaire/Texas/USA",
-      "/Chicago/Illinois/USA"
+      "Reliant Stadium, Houston, Texas, USA",
+      "The Galleria Shopping Mall, Houston, Texas, USA",
+      "Denton, Texas, USA",
+      "Mineral Wells, Texas, USA",
+      "3236 Pine St., Bellaire, Texas, USA",
+      "Chicago, Illinois, USA"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda",
@@ -262,8 +262,8 @@
       "11/3/2003"
     ],
     "PLACES": [
-      "231 12th St./Columbia/Missouri/USA",
-      "224 Paulson Ave./Clifton/New Jersey/USA"
+      "231 12th St., Columbia, Missouri, USA",
+      "224 Paulson Ave., Clifton, New Jersey, USA"
     ],
     "ORGANIZATIONS": [
       "University of Missouri",
@@ -308,10 +308,10 @@
       "7/2/2000"
     ],
     "PLACES": [
-      "/Detroit/Michigan/USA",
-      "/Newark/New Jersey/USA",
-      "2116 27th St./Laurel/Maryland/USA",
-      "/Baltimore/Maryland/USA"
+      "Detroit, Michigan, USA",
+      "Newark, New Jersey, USA",
+      "2116 27th St., Laurel, Maryland, USA",
+      "Baltimore, Maryland, USA"
     ],
     "ORGANIZATIONS": [
       "FBI",
@@ -335,11 +335,11 @@
       "12/22/2003"
     ],
     "PLACES": [
-      "2111 Troost Ave./Kansas City/Missouri/USA",
-      "/Chicago/Illinois/USA",
-      "the Argosy Riverside Casino/Kansas City/Missouri/USA",
-      "the Isle of Capri Casino/Kansas City/Missouri/USA",
-      "Harrah's Casino/Kansas City/Missouri/USA"
+      "2111 Troost Ave., Kansas City, Missouri, USA",
+      "Chicago, Illinois, USA",
+      "the Argosy Riverside Casino, Kansas City, Missouri, USA",
+      "the Isle of Capri Casino, Kansas City, Missouri, USA",
+      "Harrah's Casino, Kansas City, Missouri, USA"
     ],
     "ORGANIZATIONS": [
       "FBI"
@@ -361,13 +361,13 @@
       "12/26/2003"
     ],
     "PLACES": [
-      "435 Fielder Rd./Arlington/Texas/USA",
-      "2727 Robinson Rd, Apartment 6/Grand Prairie/Texas/USA",
-      "/ / /Mexico",
-      "/Presidio/Texas/USA",
-      "/ / /Columbia",
-      "/Dallas/Texas/USA",
-      "231 12th St./Columbia/Missouri/USA"
+      "435 Fielder Rd., Arlington, Texas, USA",
+      "2727 Robinson Rd, Apartment 6, Grand Prairie, Texas, USA",
+      "Mexico",
+      "Presidio, Texas, USA",
+      "Columbia",
+      "Dallas, Texas, USA",
+      "231 12th St., Columbia, Missouri, USA"
     ],
     "ORGANIZATIONS": [
       "FirstTex Bank",
@@ -393,10 +393,10 @@
       "1/2/2004"
     ],
     "PLACES": [
-      "224 Paulson Ave./Clifton/New Jersey/USA",
-      "/New Brunswick/New Jersey/USA",
-      "/ / /Pakistan",
-      "/ / /Lebanon"
+      "224 Paulson Ave., Clifton, New Jersey, USA",
+      "New Brunswick, New Jersey, USA",
+      "Pakistan",
+      "Lebanon"
     ],
     "ORGANIZATIONS": [
       "Rutgers University",
@@ -419,8 +419,8 @@
       "2/2/2004"
     ],
     "PLACES": [
-      "/Miami/Florida/USA",
-      "/Coral Gables/Florida/USA"
+      "Miami, Florida, USA",
+      "Coral Gables, Florida, USA"
     ],
     "ORGANIZATIONS": [
       "Tawhid Mosque",
@@ -455,9 +455,9 @@
       "1/18/2004"
     ],
     "PLACES": [
-      "/Madrid/ /Spain",
-      "/Cairo/ /Egypt",
-      "/Paris/ /France"
+      "Madrid, Spain",
+      "Cairo, Egypt",
+      "Paris, France"
     ],
     "ORGANIZATIONS": []
   },
@@ -473,7 +473,7 @@
     ],
     "DATES": [],
     "PLACES": [
-      "455 11th St./Miami Beach/Florida/USA"
+      "455 11th St., Miami Beach, Florida, USA"
     ],
     "ORGANIZATIONS": [
       "University of Miami"
@@ -492,9 +492,9 @@
       "/ /1969"
     ],
     "PLACES": [
-      "562 Fenkell Ave./Detroit/Michigan/USA",
-      "766 Livernois Rd./Detroit/Michigan/USA",
-      "/Ferndale/Michigan/USA"
+      "562 Fenkell Ave., Detroit, Michigan, USA",
+      "766 Livernois Rd., Detroit, Michigan, USA",
+      "Ferndale, Michigan, USA"
     ],
     "ORGANIZATIONS": [
       "FBI",
@@ -522,21 +522,21 @@
       "1/ /2003"
     ],
     "PLACES": [
-      "/Arlington/Texas/USA",
-      "/Buenos Aires/ /Argentina",
-      "/Calamar/ /Columbia",
-      "/Cartagena/ /Columbia",
-      "/Guane/ /Cuba",
-      "/Chetumal/ /Mexico",
-      "/Mexico City/ /Mexico",
-      "/Ojinaga/ /Mexico",
-      "/Presidio/Texas/USA",
-      "/Ft. Stockton/Texas/USA",
-      "/San Antonio/Texas/USA",
-      "/Dallas/Texas/USA",
-      "2727 Robinson Rd./Grand Prairie/Texas/USA",
-      "1212 Pipeline Rd./Euless/Texas/USA",
-      "899 Almeda-Genoa Rd./Houston/Texas/USA"
+      "Arlington, Texas, USA",
+      "Buenos Aires, Argentina",
+      "Calamar, Columbia",
+      "Cartagena, Columbia",
+      "Guane, Cuba",
+      "Chetumal, Mexico",
+      "Mexico City, Mexico",
+      "Ojinaga, Mexico",
+      "Presidio, Texas, USA",
+      "Ft. Stockton, Texas, USA",
+      "San Antonio, Texas, USA",
+      "Dallas, Texas, USA",
+      "2727 Robinson Rd., Grand Prairie, Texas, USA",
+      "1212 Pipeline Rd., Euless, Texas, USA",
+      "899 Almeda-Genoa Rd., Houston, Texas, USA"
     ],
     "ORGANIZATIONS": [
       "ELN",
@@ -561,10 +561,10 @@
       "1/ /2001"
     ],
     "PLACES": [
-      "/ / /Saudi Arabia",
-      "/Ann Arbor/Michigan/USA",
-      "/Detroit/Michigan/USA",
-      "/Riyadh/ /Saudi Arabia"
+      "Saudi Arabia",
+      "Ann Arbor, Michigan, USA",
+      "Detroit, Michigan, USA",
+      "Riyadh, Saudi Arabia"
     ],
     "ORGANIZATIONS": [
       "Detroit Utilities Co.",
@@ -589,11 +589,11 @@
       "6/ /2000"
     ],
     "PLACES": [
-      "65 West End Ave./Nassau/ /Bahamas",
-      "/ / /Syria",
-      "/ / /UK",
-      "/ / /Afghanistan",
-      "/Tampa/Florida/USA"
+      "65 West End Ave., Nassau, Bahamas",
+      "Syria",
+      "UK",
+      "Afghanistan",
+      "Tampa, Florida, USA"
     ],
     "ORGANIZATIONS": [
       "MI 6",
@@ -621,10 +621,10 @@
       "3/16/2004"
     ],
     "PLACES": [
-      "/ / /Afghanistan",
-      "12 Lavender Grove, Hackney/London/ /UK",
-      "Heathrow Airport/London/ /UK",
-      "/Detroit/Michigan/USA"
+      "Afghanistan",
+      "12 Lavender Grove, Hackney, London, UK",
+      "Heathrow Airport, London, UK",
+      "Detroit, Michigan, USA"
     ],
     "ORGANIZATIONS": [
       "MI 5",
@@ -651,10 +651,10 @@
       "5/20/2004"
     ],
     "PLACES": [
-      "/Charlotte/North Carolina/USA",
-      "River Rouge Park/Detroit/Michigan/USA",
-      "562 Fenkell Ave./Detroit/Michigan/USA",
-      "237 Hayes Ave/Detroit/Michigan/USA"
+      "Charlotte, North Carolina, USA",
+      "River Rouge Park, Detroit, Michigan, USA",
+      "562 Fenkell Ave., Detroit, Michigan, USA",
+      "237 Hayes Ave, Detroit, Michigan, USA"
     ],
     "ORGANIZATIONS": [
       "BailOut",
@@ -688,10 +688,10 @@
       "1/18/2004"
     ],
     "PLACES": [
-      "Catalan Hotel/ /Madrid/Spain",
-      "Luxor Hotel/Cairo/ /Egypt",
-      "411 Ramses St/Cairo/ /Egypt",
-      "Hotel de St. Marie/Paris/ /France"
+      "Catalan Hotel, Madrid, Spain",
+      "Luxor Hotel, Cairo, Egypt",
+      "411 Ramses St, Cairo, Egypt",
+      "Hotel de St. Marie, Paris, France"
     ],
     "ORGANIZATIONS": [
       "Overseas Exports Inc."
@@ -713,8 +713,8 @@
     ],
     "DATES": [],
     "PLACES": [
-      "Almeda-Genoa Rd/Houston/Texas/USA",
-      "/Kansas City/ /USA"
+      "Almeda-Genoa Rd, Houston, Texas, USA",
+      "Kansas City, USA"
     ],
     "ORGANIZATIONS": [
       "God's Aryan Militia [GAM]"
@@ -734,7 +734,7 @@
       "8/3/2004"
     ],
     "PLACES": [
-      "/Carrizo Springs/Texas/USA"
+      "Carrizo Springs, Texas, USA"
     ],
     "ORGANIZATIONS": []
   },
@@ -749,7 +749,7 @@
     ],
     "DATES": [],
     "PLACES": [
-      "Jersey National Bank/Newark/New Jersey/USA"
+      "Jersey National Bank, Newark, New Jersey, USA"
     ],
     "ORGANIZATIONS": [
       "Jersey National Bank"
@@ -772,9 +772,9 @@
       "9/25/2004"
     ],
     "PLACES": [
-      "22 Hoveniersstraat/Antwerp/ /Belgium",
-      "/Panama City/ /Panama",
-      "/ /Peshawar/Pakistan"
+      "22 Hoveniersstraat, Antwerp, Belgium",
+      "Panama City, Panama",
+      "Peshawar, Pakistan"
     ],
     "ORGANIZATIONS": [
       "militant Islamic groups"
@@ -806,7 +806,7 @@
       "9/14/2004"
     ],
     "PLACES": [
-      "1721 Glade Dr/Reston/Virginia/USA"
+      "1721 Glade Dr, Reston, Virginia, USA"
     ],
     "ORGANIZATIONS": [
       "American Islamic Scholarship Fund"
@@ -830,8 +830,8 @@
       "10/20/2004"
     ],
     "PLACES": [
-      "811 Tecumseh Rd./Windsor/Ontario/Canada",
-      "562 Fenkell Ave./ /Detroit/Michigan/USA"
+      "811 Tecumseh Rd., Windsor, Ontario, Canada",
+      "562 Fenkell Ave., Detroit, Michigan, USA"
     ],
     "ORGANIZATIONS": [
       "SCADA systems"
@@ -850,8 +850,8 @@
       "9/18/2004"
     ],
     "PLACES": [
-      "/Bellaire/Texas/USA",
-      "/ / /Saudi Arabia"
+      "Bellaire, Texas, USA",
+      "Saudi Arabia"
     ],
     "ORGANIZATIONS": [
       "God's Aryan Militia",
@@ -869,8 +869,8 @@
       "10/15/2004"
     ],
     "PLACES": [
-      "3236 Pine St/Bellaire/Texas/USA",
-      "4618 Bissonnet St./Houston/Texas/USA"
+      "3236 Pine St, Bellaire, Texas, USA",
+      "4618 Bissonnet St., Houston, Texas, USA"
     ],
     "ORGANIZATIONS": [
       "StoreAll Rental"
@@ -893,9 +893,9 @@
       "7/18/2004"
     ],
     "PLACES": [
-      "811 Tecumseh Rd/Windsor/Ontario/Canada",
-      "/Marrakech/ /Morocco",
-      "/Detroit/Michigan/USA"
+      "811 Tecumseh Rd, Windsor, Ontario, Canada",
+      "Marrakech, Morocco",
+      "Detroit, Michigan, USA"
     ],
     "ORGANIZATIONS": [
       "Canada Eastern Airlines"
@@ -923,13 +923,13 @@
       "9/17/2004"
     ],
     "PLACES": [
-      "1721 Glade Dr/Reston/Virginia/USA",
-      "224 Paulson Ave/Clifton/New Jersey/USA",
-      "1641 Pitkin Ave/Brooklyn/New York/USA",
-      "2116 27th St./Laurel/Maryland/USA",
-      "1621 Charles Ave./Potomac/Maryland/USA",
-      "6132 Broward Blvd/Fort Lauderdale/Florida/USA",
-      "455 11th St./Miami Beach/Florida/USA"
+      "1721 Glade Dr, Reston, Virginia, USA",
+      "224 Paulson Ave, Clifton, New Jersey, USA",
+      "1641 Pitkin Ave, Brooklyn, New York, USA",
+      "2116 27th St., Laurel, Maryland, USA",
+      "1621 Charles Ave., Potomac, Maryland, USA",
+      "6132 Broward Blvd, Fort Lauderdale, Florida, USA",
+      "455 11th St., Miami Beach, Florida, USA"
     ],
     "ORGANIZATIONS": [
       "American Islamic Scholarship Fund"
@@ -951,9 +951,9 @@
       "10/27/2004"
     ],
     "PLACES": [
-      "/Detroit/Michigan/USA",
-      "/Windsor/Ontario/Canada",
-      "/Marrakech/ /Morocco"
+      "Detroit, Michigan, USA",
+      "Windsor, Ontario, Canada",
+      "Marrakech, Morocco"
     ],
     "ORGANIZATIONS": [
       "SCADA systems"
@@ -972,12 +972,12 @@
       "12/1/2004"
     ],
     "PLACES": [
-      "/Houston/Texas/USA",
-      "/Victoria/Texas/USA",
-      "/Cartagena/Columbia/USA",
-      "/Guane/ /Cuba",
-      "/Chetumal/ /Mexico",
-      "/Piedras Negras/ /Mexico"
+      "Houston, Texas, USA",
+      "Victoria, Texas, USA",
+      "Cartagena, Columbia, USA",
+      "Guane, Cuba",
+      "Chetumal, Mexico",
+      "Piedras Negras, Mexico"
     ],
     "ORGANIZATIONS": []
   },
@@ -994,12 +994,12 @@
       "12/3/2004"
     ],
     "PLACES": [
-      "/Farmers Branch/Texas/USA",
-      "/Cartagena/Columbia/USA",
-      "/Guane/ /Cuba",
-      "/Ciudad Madero/ /Mexico",
-      "/Ciudad Acuna/ /Mexico",
-      "/Victoria/Texas/USA"
+      "Farmers Branch, Texas, USA",
+      "Cartagena, Columbia, USA",
+      "Guane, Cuba",
+      "Ciudad Madero, Mexico",
+      "Ciudad Acuna, Mexico",
+      "Victoria, Texas, USA"
     ],
     "ORGANIZATIONS": [
       "FARC",
@@ -1018,7 +1018,7 @@
       "12/1/2004"
     ],
     "PLACES": [
-      "/Plum Island/ /"
+      "Plum Island"
     ],
     "ORGANIZATIONS": []
   },
@@ -1041,8 +1041,8 @@
       "9/20/2004"
     ],
     "PLACES": [
-      "/Miami/Florida/USA",
-      "/Nassau/ /Bahamas"
+      "Miami, Florida, USA",
+      "Nassau, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -1067,10 +1067,10 @@
       "12/18/2004"
     ],
     "PLACES": [
-      "/ New York City/New York/USA",
-      "/Baltimore/Maryland/USA",
-      "/ Nassau/ /Bahamas",
-      "/Freeport/ /Bahamas"
+      " New York City, New York, USA",
+      "Baltimore, Maryland, USA",
+      " Nassau, Bahamas",
+      "Freeport, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -1087,10 +1087,10 @@
       "1/29/2003"
     ],
     "PLACES": [
-      "/Cairo/ /Egypt",
-      "/Moscow/ /Russia",
-      "/Strizi/ /Russia",
-      "/Kirov/ /Russia"
+      "Cairo, Egypt",
+      "Moscow, Russia",
+      "Strizi, Russia",
+      "Kirov, Russia"
     ],
     "ORGANIZATIONS": [
       "Medikat",
@@ -1118,12 +1118,12 @@
       "/ /2001"
     ],
     "PLACES": [
-      "/Toronto/ /Canada",
-      "/Gizab/ /",
-      "/Detroit/Michigan/USA",
-      "/Qalat/ /",
-      "/Montreal/ /Canada",
-      "/London/ /UK"
+      "Toronto, Canada",
+      "Gizab",
+      "Detroit, Michigan, USA",
+      "Qalat",
+      "Montreal, Canada",
+      "London, UK"
     ],
     "ORGANIZATIONS": [
       "Kanjak Training Camp",
@@ -1146,9 +1146,9 @@
       "1/23/2003"
     ],
     "PLACES": [
-      "77 Avenue Francis/Santo Domingo/ /Dominican Republic",
-      "/Havana/ /Cuba",
-      "/Bogota/ /Columbia"
+      "77 Avenue Francis, Santo Domingo, Dominican Republic",
+      "Havana, Cuba",
+      "Bogota, Columbia"
     ],
     "ORGANIZATIONS": [
       "FARC",
@@ -1169,11 +1169,11 @@
       "/ /1991"
     ],
     "PLACES": [
-      "/Calamar/ /Columbia",
-      "/Havana/ /Cuba",
-      "/ / /Columbia",
-      "/ / /Ecuador",
-      "/ / /Peru"
+      "Calamar, Columbia",
+      "Havana, Cuba",
+      "Columbia",
+      "Ecuador",
+      "Peru"
     ],
     "ORGANIZATIONS": [
       "National Liberation Army [ELN]",
@@ -1193,9 +1193,9 @@
       "12/26/1950"
     ],
     "PLACES": [
-      "/Strizi/ /Russia",
-      "/Lipetsk/ /Russia",
-      "/Moscow/ /Russia"
+      "Strizi, Russia",
+      "Lipetsk, Russia",
+      "Moscow, Russia"
     ],
     "ORGANIZATIONS": [
       "Vector institute",
@@ -1221,8 +1221,8 @@
       "7/ /2000"
     ],
     "PLACES": [
-      "/Khost/ /Afghanistan",
-      "/Pakhtia/ /Afghanistan"
+      "Khost, Afghanistan",
+      "Pakhtia, Afghanistan"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda",
@@ -1254,12 +1254,12 @@
       "4/1/2003"
     ],
     "PLACES": [
-      "73 Rue Duhesme/ / /",
-      "/Paris/ /France",
-      "/ / /Afghanistan",
-      "/Pakhtia/ /Afghanistan",
-      "/Montreal/ /Canada",
-      "/Chicago/Illinois/USA"
+      "73 Rue Duhesme",
+      "Paris, France",
+      "Afghanistan",
+      "Pakhtia, Afghanistan",
+      "Montreal, Canada",
+      "Chicago, Illinois, USA"
     ],
     "ORGANIZATIONS": [
       "Amercan Embassy in Paris",
@@ -1285,8 +1285,8 @@
       "/ /2001"
     ],
     "PLACES": [
-      "/Peshawar/ /Pakistan",
-      "/Parachinar/ /Pakistan"
+      "Peshawar, Pakistan",
+      "Parachinar, Pakistan"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda",
@@ -1304,7 +1304,7 @@
     ],
     "DATES": [],
     "PLACES": [
-      "993 Panamico Ave./Panama City/ /Panama"
+      "993 Panamico Ave., Panama City, Panama"
     ],
     "ORGANIZATIONS": []
   },
@@ -1332,14 +1332,14 @@
       "7/17/1999"
     ],
     "PLACES": [
-      "Baker St./London/ /UK",
-      "/ / /Afghanistan",
-      "/London Heathrow/ /UK",
-      "/Islamabad/ /",
-      "11 Apple St./Nassau/ /Bahamas",
-      "/Freeport/ /Bahamas",
-      "/ / /Yemen",
-      "/Chicago/Illinois/USA"
+      "Baker St., London, UK",
+      "Afghanistan",
+      "London Heathrow, UK",
+      "Islamabad",
+      "11 Apple St., Nassau, Bahamas",
+      "Freeport, Bahamas",
+      "Yemen",
+      "Chicago, Illinois, USA"
     ],
     "ORGANIZATIONS": []
   },
@@ -1360,9 +1360,9 @@
       "3/10/2003"
     ],
     "PLACES": [
-      "88 Sahibzada Gul Rd./Peshawar/ /",
-      "/ / /USA",
-      "/Karachi/ /"
+      "88 Sahibzada Gul Rd., Peshawar",
+      "USA",
+      "Karachi"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda"
@@ -1384,10 +1384,10 @@
       "6/18/2003"
     ],
     "PLACES": [
-      "/Casablanca/ /Morocco",
-      "/ / /Afghanistan",
-      "/ / /USA",
-      "/ / /Caribbean"
+      "Casablanca, Morocco",
+      "Afghanistan",
+      "USA",
+      "Caribbean"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda",
@@ -1413,13 +1413,13 @@
       "6/23/2003"
     ],
     "PLACES": [
-      "71 Voorburg straat/Amsterdam/ /Netherlands",
-      "/ / /Netherlands",
-      "/Kuala Lumpur/ /Malaysia",
-      "/Chicago/Illinois/USA",
-      "/Los Angeles/California/USA",
-      "235 Buckthorn St./Inglewood/California/USA",
-      "773 Flaxton St./Culver City/California/USA"
+      "71 Voorburg straat, Amsterdam, Netherlands",
+      "Netherlands",
+      "Kuala Lumpur, Malaysia",
+      "Chicago, Illinois, USA",
+      "Los Angeles, California, USA",
+      "235 Buckthorn St., Inglewood, California, USA",
+      "773 Flaxton St., Culver City, California, USA"
     ],
     "ORGANIZATIONS": []
   },
@@ -1434,10 +1434,10 @@
     ],
     "DATES": [],
     "PLACES": [
-      "993 Panamico Ave./Panama City/ /Panama",
-      "/Havana/ /Cuba",
-      "/ / /Iran",
-      "/ / /Pakistan"
+      "993 Panamico Ave., Panama City, Panama",
+      "Havana, Cuba",
+      "Iran",
+      "Pakistan"
     ],
     "ORGANIZATIONS": []
   },
@@ -1453,8 +1453,8 @@
       "7/17/2003"
     ],
     "PLACES": [
-      "88 Sahibzada Gul Rd./Peshawar/ /Pakistan",
-      "/Chitral/ /Pakistan"
+      "88 Sahibzada Gul Rd., Peshawar, Pakistan",
+      "Chitral, Pakistan"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda"
@@ -1474,12 +1474,12 @@
       "/ /1992"
     ],
     "PLACES": [
-      "811 Tecumseh Rd./Windsor/Ontario/Canada",
-      "/Detroit/Michigan/USA",
-      "/ / /USA",
-      "/Newark/New Jersey/USA",
-      "/Chicago/Illinois/USA",
-      "/Columbus/Ohio/USA"
+      "811 Tecumseh Rd., Windsor, Ontario, Canada",
+      "Detroit, Michigan, USA",
+      "USA",
+      "Newark, New Jersey, USA",
+      "Chicago, Illinois, USA",
+      "Columbus, Ohio, USA"
     ],
     "ORGANIZATIONS": [
       "RCMP",
@@ -1507,8 +1507,8 @@
       "/ /1990"
     ],
     "PLACES": [
-      "/Moscow/ /Russia",
-      "/Havana/ /Cuba"
+      "Moscow, Russia",
+      "Havana, Cuba"
     ],
     "ORGANIZATIONS": [
       "Cuban government"
@@ -1528,8 +1528,8 @@
       "/ /1998"
     ],
     "PLACES": [
-      "/Jeddah/ /",
-      "/Riyadh/ /Saudi Arabia"
+      "Jeddah",
+      "Riyadh, Saudi Arabia"
     ],
     "ORGANIZATIONS": []
   },
@@ -1547,8 +1547,8 @@
       "3/12/2003"
     ],
     "PLACES": [
-      "/Peshawar/ /",
-      "/Orgun/ /Afghanistan"
+      "Peshawar",
+      "Orgun, Afghanistan"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda"
@@ -1567,7 +1567,7 @@
       "10/2/2003"
     ],
     "PLACES": [
-      "/Chitral/ /Pakistan"
+      "Chitral, Pakistan"
     ],
     "ORGANIZATIONS": []
   },
@@ -1591,12 +1591,12 @@
       "10/18/2003"
     ],
     "PLACES": [
-      "/Casablanca/ /Marocco",
-      "/Havana/ /Cuba",
-      "/San Cristobal/ /Cuba",
-      "Moroccan Sands Hotel/Casablanca/ /Marocco",
-      "Sahara Atlantic Hotel/Casablanca/ /Marocco",
-      "Sahara Atlantic Hotel/Casablanca/ /Marocco"
+      "Casablanca, Marocco",
+      "Havana, Cuba",
+      "San Cristobal, Cuba",
+      "Moroccan Sands Hotel, Casablanca, Marocco",
+      "Sahara Atlantic Hotel, Casablanca, Marocco",
+      "Sahara Atlantic Hotel, Casablanca, Marocco"
     ],
     "ORGANIZATIONS": []
   },
@@ -1630,14 +1630,14 @@
       "10/25/2003"
     ],
     "PLACES": [
-      "/ / /Pakistan",
-      "/Karachi/ /Pakistan",
-      "/Peshawar/ /Pakistan",
-      "/Islamabad/ /Pakistan",
-      "/Hyderabad/ /Pakistan",
-      "Moroccan Oasis Hotel/Casablanca/ /Marocco",
-      "Sahara Atlantic Hotel/Casablanca/ /Marocco",
-      "Moroccan Sands Hotel/Casablanca/ /Marocco"
+      "Pakistan",
+      "Karachi, Pakistan",
+      "Peshawar, Pakistan",
+      "Islamabad, Pakistan",
+      "Hyderabad, Pakistan",
+      "Moroccan Oasis Hotel, Casablanca, Marocco",
+      "Sahara Atlantic Hotel, Casablanca, Marocco",
+      "Moroccan Sands Hotel, Casablanca, Marocco"
     ],
     "ORGANIZATIONS": []
   },
@@ -1657,8 +1657,8 @@
       "3/4/1970"
     ],
     "PLACES": [
-      "65 Avenue San Martin/Santo Domingo/ /Dominican Republic",
-      "/Buenos Aires/ /Argentina"
+      "65 Avenue San Martin, Santo Domingo, Dominican Republic",
+      "Buenos Aires, Argentina"
     ],
     "ORGANIZATIONS": [
       "AutoFleet taxi company"
@@ -1679,8 +1679,8 @@
       "12/25/2003"
     ],
     "PLACES": [
-      "/Nassau/ /Bahamas",
-      "411 Ramses St./Cairo/ /Egypt"
+      "Nassau, Bahamas",
+      "411 Ramses St., Cairo, Egypt"
     ],
     "ORGANIZATIONS": []
   },
@@ -1698,8 +1698,8 @@
       "1/27/2004"
     ],
     "PLACES": [
-      "/Panama City/ /Panama",
-      "/Havana/ /Cuba"
+      "Panama City, Panama",
+      "Havana, Cuba"
     ],
     "ORGANIZATIONS": [
       "Canal Bank",
@@ -1721,10 +1721,10 @@
       "2/7/2004"
     ],
     "PLACES": [
-      "/Nassau/ /Bahamas",
-      "/Miami/Florida/USA",
-      "/London/ /UK",
-      "631 Nishtar Rd./Karachi/ /Pakistan"
+      "Nassau, Bahamas",
+      "Miami, Florida, USA",
+      "London, UK",
+      "631 Nishtar Rd., Karachi, Pakistan"
     ],
     "ORGANIZATIONS": [
       "Pakistani Intelligence"
@@ -1743,9 +1743,9 @@
       "2/17/2004"
     ],
     "PLACES": [
-      "/Caracas/ /Venezuela",
-      "/ / /Cuba",
-      "/ / /Bahamas"
+      "Caracas, Venezuela",
+      "Cuba",
+      "Bahamas"
     ],
     "ORGANIZATIONS": [
       "Caribbean Cargo Shipping Lines"
@@ -1760,12 +1760,12 @@
     "PERSONS": [],
     "DATES": [],
     "PLACES": [
-      "/Casablanca/ /Morocco",
-      "/Miami/Florida/USA",
-      "/Savannah/Georgia/USA",
-      "/Norfolk/Virginia/USA",
-      "/Santo Domingo/ /Dominican Republic",
-      "/Caracas/ /Venezuela"
+      "Casablanca, Morocco",
+      "Miami, Florida, USA",
+      "Savannah, Georgia, USA",
+      "Norfolk, Virginia, USA",
+      "Santo Domingo, Dominican Republic",
+      "Caracas, Venezuela"
     ],
     "ORGANIZATIONS": [
       "Holland Orange Shipping Lines"
@@ -1782,7 +1782,7 @@
       "4/15/2004"
     ],
     "PLACES": [
-      "/Blagoveshchensk/ /"
+      "Blagoveshchensk"
     ],
     "ORGANIZATIONS": [
       "Itar-Tass news Agency"
@@ -1806,9 +1806,9 @@
       "2/22/2003"
     ],
     "PLACES": [
-      "/Santo Domingo/ /Dominican Republic",
-      "/Havana/ /Cuba",
-      "/Buenos Aires/ /Argentina"
+      "Santo Domingo, Dominican Republic",
+      "Havana, Cuba",
+      "Buenos Aires, Argentina"
     ],
     "ORGANIZATIONS": []
   },
@@ -1828,8 +1828,8 @@
       "/ /1993"
     ],
     "PLACES": [
-      "/Saratov/ /Russia",
-      "/ / /Cuba"
+      "Saratov, Russia",
+      "Cuba"
     ],
     "ORGANIZATIONS": [
       "Moscow State University"
@@ -1848,7 +1848,7 @@
       "9/25/2003"
     ],
     "PLACES": [
-      "Freeport Star Hotel/Freeport/ /Bahamas"
+      "Freeport Star Hotel, Freeport, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -1869,7 +1869,7 @@
       "2/ /2000"
     ],
     "PLACES": [
-      "/ / /Afghanistan"
+      "Afghanistan"
     ],
     "ORGANIZATIONS": []
   },
@@ -1886,8 +1886,8 @@
       "9/1/2004"
     ],
     "PLACES": [
-      "/Moscow/ /Russia",
-      "/Strizhi/ /Russia"
+      "Moscow, Russia",
+      "Strizhi, Russia"
     ],
     "ORGANIZATIONS": [
       "Central Russia Airlines"
@@ -1902,7 +1902,7 @@
     "PERSONS": [],
     "DATES": [],
     "PLACES": [
-      "/Bucaramanga/ /Columbia"
+      "Bucaramanga, Columbia"
     ],
     "ORGANIZATIONS": [
       "Center of Disease Control"
@@ -1923,9 +1923,9 @@
       "/ /2002"
     ],
     "PLACES": [
-      "/ / /USA",
-      "/Havana/ /Cuba",
-      "/Moscow/ /Russia"
+      "USA",
+      "Havana, Cuba",
+      "Moscow, Russia"
     ],
     "ORGANIZATIONS": []
   },
@@ -1949,9 +1949,9 @@
       "10/1/2004"
     ],
     "PLACES": [
-      "631 Nishtar Rd./Karachi/ /Pakistan",
-      "/Chitral/ /Pakistan",
-      "/Gwadar/ /Pakistan"
+      "631 Nishtar Rd., Karachi, Pakistan",
+      "Chitral, Pakistan",
+      "Gwadar, Pakistan"
     ],
     "ORGANIZATIONS": [
       "Pakistani intelligence",
@@ -1970,9 +1970,9 @@
     ],
     "DATES": [],
     "PLACES": [
-      "#13 Step St./Nassau/ /Bahamas",
-      "/Santo Domingo/ /Dominican Republic",
-      "Seashore Hotel/Nassau/ /Bahamas"
+      "#13 Step St., Nassau, Bahamas",
+      "Santo Domingo, Dominican Republic",
+      "Seashore Hotel, Nassau, Bahamas"
     ],
     "ORGANIZATIONS": [
       "Island Freight Lines"
@@ -1991,8 +1991,8 @@
       "10/5/2004"
     ],
     "PLACES": [
-      "/Casablanca/ /Morocco",
-      "/Santo Domingo/ /The Dominican Republic"
+      "Casablanca, Morocco",
+      "Santo Domingo, The Dominican Republic"
     ],
     "ORGANIZATIONS": [
       "Holland Orange Shipping Lines",
@@ -2030,10 +2030,10 @@
       "/ /1988"
     ],
     "PLACES": [
-      "/Riyadh/ /Saudi Arabia",
-      "/ / /Afghanistan",
-      "/ / /Saudi Arabia",
-      "/Santo Domingo/ /The Dominican Republic"
+      "Riyadh, Saudi Arabia",
+      "Afghanistan",
+      "Saudi Arabia",
+      "Santo Domingo, The Dominican Republic"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda"
@@ -2070,8 +2070,8 @@
       "12/1/2004"
     ],
     "PLACES": [
-      "/Nassau/ /Bahamas",
-      "/Freeport/ /Bahamas"
+      "Nassau, Bahamas",
+      "Freeport, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -2088,7 +2088,7 @@
       "12/15/2004"
     ],
     "PLACES": [
-      "11 Apple St./Nassau/ /Bahamas"
+      "11 Apple St., Nassau, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -2103,8 +2103,8 @@
       "3/28/2003"
     ],
     "PLACES": [
-      "16 Becklow Rd./London/ /UK",
-      "73 Rue Duhesme/Paris/ /France"
+      "16 Becklow Rd., London, UK",
+      "73 Rue Duhesme, Paris, France"
     ],
     "ORGANIZATIONS": []
   },
@@ -2119,9 +2119,9 @@
       "4/25/2003"
     ],
     "PLACES": [
-      "29 Grootslagstraat/Amsterdam/ /Netherlands",
-      "721 St Clare St./Montreal/Quebec/Canada",
-      "2211 Cermak Rd./Chicago/Illinois/USA"
+      "29 Grootslagstraat, Amsterdam, Netherlands",
+      "721 St Clare St., Montreal, Quebec, Canada",
+      "2211 Cermak Rd., Chicago, Illinois, USA"
     ],
     "ORGANIZATIONS": []
   },
@@ -2134,8 +2134,8 @@
     "PERSONS": [],
     "DATES": [],
     "PLACES": [
-      "12 Rue De Civry/Paris/ /France",
-      "Cabrito Hotel/Ojinaga/ /Mexico"
+      "12 Rue De Civry, Paris, France",
+      "Cabrito Hotel, Ojinaga, Mexico"
     ],
     "ORGANIZATIONS": []
   },
@@ -2153,9 +2153,9 @@
       "8/1/2003"
     ],
     "PLACES": [
-      "Oasis Internet Cafe/Marrakech/ /Morocco",
-      "/Windsor/Ontario/Canada",
-      "811 Tecumseh Rd./Windsor/Ontario/Canada"
+      "Oasis Internet Cafe, Marrakech, Morocco",
+      "Windsor, Ontario, Canada",
+      "811 Tecumseh Rd., Windsor, Ontario, Canada"
     ],
     "ORGANIZATIONS": []
   },
@@ -2173,9 +2173,9 @@
       "10/22/2003"
     ],
     "PLACES": [
-      "/Moscow/ /Russia",
-      "/Chitral/ /Pakistan",
-      "/Casablanca/ /Morocco"
+      "Moscow, Russia",
+      "Chitral, Pakistan",
+      "Casablanca, Morocco"
     ],
     "ORGANIZATIONS": [
       "Central Russian Airlines"
@@ -2195,9 +2195,9 @@
       "9/5/2003"
     ],
     "PLACES": [
-      "/Karachi/ /Pakistan",
-      "11 Apple St./Nassau/ /Bahamas",
-      "1789 Grenfel Ave./Freeport/ /Bahamas"
+      "Karachi, Pakistan",
+      "11 Apple St., Nassau, Bahamas",
+      "1789 Grenfel Ave., Freeport, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -2210,8 +2210,8 @@
     "PERSONS": [],
     "DATES": [],
     "PLACES": [
-      "631 Nishtar Rd./Karachi/ /Pakistan",
-      "993 Panamico Ave./Panama City/ /Panama"
+      "631 Nishtar Rd., Karachi, Pakistan",
+      "993 Panamico Ave., Panama City, Panama"
     ],
     "ORGANIZATIONS": []
   },
@@ -2226,9 +2226,9 @@
       "9/25/2003"
     ],
     "PLACES": [
-      "/Chitral/ /Pakistan",
-      "/Casablanca/ /Morocco",
-      "/Peshawar/ /Pakistan"
+      "Chitral, Pakistan",
+      "Casablanca, Morocco",
+      "Peshawar, Pakistan"
     ],
     "ORGANIZATIONS": [
       "Holland Orange Shipping Lines"
@@ -2245,8 +2245,8 @@
       "10/23/2003"
     ],
     "PLACES": [
-      "/Casablanca/ /Morocco",
-      "65 Avenue San Martin/Santa Domingo/ /Dominican Republic"
+      "Casablanca, Morocco",
+      "65 Avenue San Martin, Santa Domingo, Dominican Republic"
     ],
     "ORGANIZATIONS": [
       "Holland Orange Shipping Lines"
@@ -2263,9 +2263,9 @@
       "12/15/2003"
     ],
     "PLACES": [
-      "811 Tecumseh Rd./Windsor/Ontario/Canada",
-      "174 Rue Cardinet/Paris/ /France",
-      "Ferry St./Buffalo/New York/USA"
+      "811 Tecumseh Rd., Windsor, Ontario, Canada",
+      "174 Rue Cardinet, Paris, France",
+      "Ferry St., Buffalo, New York, USA"
     ],
     "ORGANIZATIONS": []
   },
@@ -2282,10 +2282,10 @@
     ],
     "DATES": [],
     "PLACES": [
-      "/Chitral/ /Pakistan",
-      "/Santa Domingo/ /Dominican Republic",
-      "16 Plasencia St./Havana/ /Cuba",
-      "/Peshawar/ /Pakistan"
+      "Chitral, Pakistan",
+      "Santa Domingo, Dominican Republic",
+      "16 Plasencia St., Havana, Cuba",
+      "Peshawar, Pakistan"
     ],
     "ORGANIZATIONS": []
   },
@@ -2301,8 +2301,8 @@
     ],
     "DATES": [],
     "PLACES": [
-      "Los Palmas Hotel/Calamar/ /Columbia",
-      "Cabrito Hotel/Ojinaga/ /Mexico"
+      "Los Palmas Hotel, Calamar, Columbia",
+      "Cabrito Hotel, Ojinaga, Mexico"
     ],
     "ORGANIZATIONS": []
   },
@@ -2315,9 +2315,9 @@
     "PERSONS": [],
     "DATES": [],
     "PLACES": [
-      "Los Andes Hotel/Bogota/ /Columbia",
-      "555 La Mirada St./Tampico/ /Mexico",
-      "/Chetumal/ /Mexico"
+      "Los Andes Hotel, Bogota, Columbia",
+      "555 La Mirada St., Tampico, Mexico",
+      "Chetumal, Mexico"
     ],
     "ORGANIZATIONS": []
   },
@@ -2332,8 +2332,8 @@
       "9/5/2004"
     ],
     "PLACES": [
-      "/Chitral/ /Pakistan",
-      "/Moscow/ /Russia"
+      "Chitral, Pakistan",
+      "Moscow, Russia"
     ],
     "ORGANIZATIONS": [
       "Central Russian Airlines"
@@ -2350,8 +2350,8 @@
       "9/12/2004"
     ],
     "PLACES": [
-      "Cultural Ministry/Tehran/ /Iran",
-      "555 La Mirada St./Tampico/ /Mexico"
+      "Cultural Ministry, Tehran, Iran",
+      "555 La Mirada St., Tampico, Mexico"
     ],
     "ORGANIZATIONS": [
       "Cultural Ministry"
@@ -2374,9 +2374,9 @@
       "11/21/2004"
     ],
     "PLACES": [
-      "45 Desague St./Havana/ /Cuba",
-      "65 Ave. San Martin/Santa Domingo/ /Dominican Republic",
-      "/ / /Columbia"
+      "45 Desague St., Havana, Cuba",
+      "65 Ave. San Martin, Santa Domingo, Dominican Republic",
+      "Columbia"
     ],
     "ORGANIZATIONS": []
   },
@@ -2392,10 +2392,10 @@
     ],
     "DATES": [],
     "PLACES": [
-      "555 La Mirada St./Tampico/ /Mexico",
-      "Los Andes Hotel/Bogota/ /Columbia",
-      "/Piedras Negras/ /",
-      "/Cuidad Acuna/ /"
+      "555 La Mirada St., Tampico, Mexico",
+      "Los Andes Hotel, Bogota, Columbia",
+      "Piedras Negras",
+      "Cuidad Acuna"
     ],
     "ORGANIZATIONS": []
   },
@@ -2410,9 +2410,9 @@
       "11/21/2004"
     ],
     "PLACES": [
-      "/Chitral/ /Pakistan",
-      "16 Plasencia St./Havana/ /Cuba",
-      "/Peshawar/ /Pakistan"
+      "Chitral, Pakistan",
+      "16 Plasencia St., Havana, Cuba",
+      "Peshawar, Pakistan"
     ],
     "ORGANIZATIONS": []
   },
@@ -2430,8 +2430,8 @@
       "11/15/2004"
     ],
     "PLACES": [
-      "555 La Mirada St./Tampico/ /Mexico",
-      "Los Andes Hotel/Bogota/ /Columbia"
+      "555 La Mirada St., Tampico, Mexico",
+      "Los Andes Hotel, Bogota, Columbia"
     ],
     "ORGANIZATIONS": []
   },
@@ -2446,10 +2446,10 @@
       "11/21/2004"
     ],
     "PLACES": [
-      "/Chitral/ /Pakistan",
-      "/Peshawar/ /Pakistan",
-      "/Havana/ /Cuba",
-      "Seashore Hotel/Nassau/ /Bahamas"
+      "Chitral, Pakistan",
+      "Peshawar, Pakistan",
+      "Havana, Cuba",
+      "Seashore Hotel, Nassau, Bahamas"
     ],
     "ORGANIZATIONS": []
   },
@@ -2464,8 +2464,8 @@
       "11/28/2004"
     ],
     "PLACES": [
-      "Los Andes Hotel/Bogota/ /Columbia",
-      "/Cuidad Acuna/ /Mexico"
+      "Los Andes Hotel, Bogota, Columbia",
+      "Cuidad Acuna, Mexico"
     ],
     "ORGANIZATIONS": []
   },
@@ -2484,9 +2484,9 @@
       "1/ /2005"
     ],
     "PLACES": [
-      "222 Fidel St./Havana/ /Cuba",
-      "/Moscow/ /Russia",
-      "/Casablanca/ /Morocco"
+      "222 Fidel St., Havana, Cuba",
+      "Moscow, Russia",
+      "Casablanca, Morocco"
     ],
     "ORGANIZATIONS": [
       "Central Russia Airlines"
@@ -2508,10 +2508,10 @@
       "10/ /1967"
     ],
     "PLACES": [
-      "/Abba/ /Saudi Arabia",
-      "/Chechnya/ /Russia",
-      "/ / /Afghanistan",
-      "/ / /USA"
+      "Abba, Saudi Arabia",
+      "Chechnya, Russia",
+      "Afghanistan",
+      "USA"
     ],
     "ORGANIZATIONS": [
       "Taliban",
@@ -2536,9 +2536,9 @@
       "/ /2000"
     ],
     "PLACES": [
-      "/Asadabad/ /Afghanistan",
-      "/Chitral/ /Pakistan",
-      "/Khost/ /Pakistan"
+      "Asadabad, Afghanistan",
+      "Chitral, Pakistan",
+      "Khost, Pakistan"
     ],
     "ORGANIZATIONS": [
       "Al Qaeda"
@@ -2561,11 +2561,11 @@
       "2/16/2004"
     ],
     "PLACES": [
-      "/Feyzabad/ /Afghanistan",
-      "/ /Maryland/USA",
-      "/Windsor/Ontario/Canada",
-      "/Los Angeles/California/USA",
-      "/Detroit/Michigan/USA"
+      "Feyzabad, Afghanistan",
+      "Maryland, USA",
+      "Windsor, Ontario, Canada",
+      "Los Angeles, California, USA",
+      "Detroit, Michigan, USA"
     ],
     "ORGANIZATIONS": [
       "University of Maryland"
@@ -2585,10 +2585,10 @@
       "8/2/2004"
     ],
     "PLACES": [
-      "Longhorn Motel/Carrizo Springs/Texas/USA",
-      "2233 Fannin St./Uvalde/Texas/USA",
-      "/Piedras Negras/ /Mexico",
-      "/Eagle Pass/ /USA"
+      "Longhorn Motel, Carrizo Springs, Texas, USA",
+      "2233 Fannin St., Uvalde, Texas, USA",
+      "Piedras Negras, Mexico",
+      "Eagle Pass, USA"
     ],
     "ORGANIZATIONS": []
   },
@@ -2604,8 +2604,8 @@
     ],
     "DATES": [],
     "PLACES": [
-      "1212 Lyons Ave./Newark/New Jersey/USA",
-      "22 Hoveniersstraat/Antwerp/ /Belgium"
+      "1212 Lyons Ave., Newark, New Jersey, USA",
+      "22 Hoveniersstraat, Antwerp, Belgium"
     ],
     "ORGANIZATIONS": [
       "FBI",
