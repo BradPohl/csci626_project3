@@ -45,7 +45,18 @@ def parse_reports(text: str):
                 desc_lines = [value] if value else []
             elif key in LIST_KEYS:
                 if value.strip():
-                    current[key] = [v.strip() for v in value.split(";") if v.strip()]
+                    if key == "PLACES":
+                        current[key] = [v.strip().split("/") for v in value.split(";") if v.strip()]
+                        place_list_temp = []
+                        for places in current[key]:
+                            place_temp = ""
+                            for place in places:
+                                if place.strip() != "":
+                                    place_temp += (place + ", ")
+                            place_list_temp.append(place_temp[:-2])
+                        current[key] = place_list_temp
+                    else:
+                        current[key] = [v.strip() for v in value.split(";") if v.strip()]
                 else:
                     current[key] = []
             else:
