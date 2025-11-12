@@ -20,7 +20,7 @@ An interactive D3-based web app that visualizes co-occurrence relationships (peo
 1. Open a cmd.exe and change to the project root:
 
 ```bat
-cd /d "C:\Users\bpohl\Desktop\Fall 2025\CSCI 626 - Human Computer Interaction\project 3"
+cd /d "route/to/project/csci626_project3"
 ```
 
 2. Create and activate a virtual environment (recommended):
