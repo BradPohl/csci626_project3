@@ -26,20 +26,11 @@ cd /d "route/to/project/csci626_project3"
 2. Create and activate a virtual environment (recommended):
 
 ```bat
-python -m venv venv
-venv\Scripts\activate
+uv venv
+.venv/Scripts/activate
 ```
 
-3. Create `requirements.txt` with these recommended packages:
-
-```text
-fastapi==0.95.2
-uvicorn[standard]==0.22.0
-python-dotenv==1.0.0
-openai>=1.0.0,<2.0.0
-```
-
-Install dependencies:
+3. Install dependencies:
 
 ```bat
 pip install -r requirements.txt
@@ -55,6 +46,10 @@ OPENAI_API_KEY=sk-<your_api_key_here>
 
 ```bat
 uvicorn backend.server:app --host 127.0.0.1 --port 8000 --reload
+```
+OR from the project root (Recommended)
+```bat
+python backend/server.py
 ```
 
 6. Open the app:
