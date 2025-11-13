@@ -27,7 +27,12 @@ const chartState = {
   placeBars: null,
 };
 
-// helper to build adjacency map from links
+/**
+ * Helper to build adjacency map from links.
+ * @param {Array} links A collection of links used to build the adjacency map.
+ * Links should have "source" and "target" data members; these should have the "id" data member.
+ * @returns An adjacency map object.
+ */
 function buildAdjacency(links) {
   const adj = new Map();
   links.forEach(l => {

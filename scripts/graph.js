@@ -1,5 +1,7 @@
-// Graph rendering (nodes = people/places, links = co-occur)
-
+/**
+ * Graph rendering function (nodes = people/places, links = co-occur)
+ * @param {object} graphData Report data used to render the graph. Must have "nodes" and "links" data members.
+ */
 function renderGraph(graphData) {
   const svg = d3.select("#graph-svg");
   const width = svg.node().clientWidth || 600;
@@ -81,17 +83,35 @@ function renderGraph(graphData) {
       .attr("cy", d => d.y);
   });
 
+  /**
+   * Listener function for nodes that start being dragged.
+   * @param {DragEvent} event The drag event that invoked the function.
+   * @param {object} d The data associated with the node being dragged.
+   * It is expected to have the fx, fy, x, and y data members.
+   */
   function dragstarted(event, d) {
     if (!event.active) simulation.alphaTarget(0.3).restart();
     d.fx = d.x;
     d.fy = d.y;
   }
 
+  /**
+   * Listener function for nodes that are actively being dragged.
+   * @param {DragEvent} event The drag event that invoked the function.
+   * @param {object} d The data associated with the node being dragged.
+   * It is expected to have the fx, fy, x, and y data members.
+   */
   function dragged(event, d) {
     d.fx = event.x;
     d.fy = event.y;
   }
 
+  /**
+   * Listener function for nodes that stop being dragged.
+   * @param {DragEvent} event The drag event that invoked the function.
+   * @param {object} d The data associated with the node being dragged.
+   * It is expected to have the fx and fy data members.
+   */
   function dragended(event, d) {
     if (!event.active) simulation.alphaTarget(0);
     d.fx = null;

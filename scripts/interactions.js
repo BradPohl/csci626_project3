@@ -1,5 +1,9 @@
 // Selection, highlighting, and doc list interactions
-
+/**
+ * Handles node or bar selection interactions.
+ * @param {string} type The type of node selected. Expected values are "person" or "place".
+ * @param {string} label The key used to track which node is being toggled.
+ */
 function toggleSelection(type, label) {
   const set = type === "person" ? selectionState.people : selectionState.places;
   if (set.has(label)) {
@@ -11,6 +15,9 @@ function toggleSelection(type, label) {
   updateHighlights();
 }
 
+/**
+ * Updates the bars to toggle the highlighting for any recently selected or deselected nodes.
+ */
 function updateBarStyles() {
   if (chartState.personBars) {
     chartState.personBars
@@ -22,6 +29,9 @@ function updateBarStyles() {
   }
 }
 
+/**
+ * Updates the network graph to reflect recent selections or deselections.
+ */
 function updateHighlights() {
   if (!graphState.nodeElements) return;
 
@@ -87,6 +97,10 @@ function updateHighlights() {
   updateDocList(selectedDocIds);
 }
 
+/**
+ * Updates the document list shown to the user upon interacting with a node or removing a document.
+ * @param {Set} docIdSet A set of strings containing the documents being shown to the user.
+ */
 function updateDocList(docIdSet) {
   const ul = d3.select("#doc-list");
   ul.selectAll("*").remove();

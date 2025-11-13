@@ -1,4 +1,9 @@
-// Bar chart rendering
+/**
+ * Renders one of the bar charts for the left side of the display.
+ * @param {string} svgId The svg HTML element that will encapsulate the charts.
+ * @param {Array} data The report data for the people/locations to render.
+ * @param {string} type The type of data being rendered. Expected values are "person" or "place".
+ */
 
 function renderBarChart(svgId, data, type) {
   const svg = d3.select(svgId);
